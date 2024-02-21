@@ -48,6 +48,10 @@ header {
     cursor: pointer;
     transition: color 0.5s;
 }
+.menu-list li a {
+    text-decoration: none;
+    color: white;
+}
 
 .menu-list li:active,
 .menu-list li:hover{
@@ -176,4 +180,15 @@ button.cta:hover {
 .item.active .color-selector {
     width: 28px;
     height: 28px;
+}
+
+/* Form */
+.center{
+    /* display: flex; */
+    padding: 40px;
+    /* position: relative; */
+}
+.form-title{
+    align-items: center;
+    font-size: larger;
 }
